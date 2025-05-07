@@ -4,13 +4,13 @@ import TopBar from '../Layout/TopBar'
 
 const Header = () => {
   return (
-    <div>
+    <header className='border-b border-gray-200 shadow-sm'>
       {/* topbar */}
       <TopBar/>
       {/* navbar */}
       <Navbar/>
       {/* cart drwver */}
-    </div>
+    </header>
   )
 }
 

@@ -9,3 +9,10 @@
   --color-rabbit-red: #ea2e0e;
 
 }
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -4,6 +4,7 @@ import { RiTwitterXLine } from 'react-icons/ri'
 import { TbBrandMeta } from 'react-icons/tb'
 
 const TopBar = () => {
+    const TopBarText = "We ship Worldwide - Fast and reliable shipping!";
     return (
         <div className='bg-rabbit-red text-white'>
             <div className='container mx-auto flex justify-between items-center py-3'>
@@ -20,7 +21,7 @@ const TopBar = () => {
                 </div>
                 <div className='text-sm text-center flex-grow'>
                     <span>
-                        We ship Worldwide - Fast and reliable shipping!
+                        {TopBarText}
                     </span>
                 </div>
                 <div className='text-sm hidden  md:block'>
